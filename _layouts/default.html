@@ -2,7 +2,6 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>{{ page.title | default: site.title }}</title>
         <link
             rel="stylesheet"
@@ -10,6 +9,16 @@
         />
     </head>
     <body>
-        <div class="box" markdown="1">{{ content }}</div>
+        <div class="box" markdown="1">
+            {{ content }}
+
+            <footer>
+                Recreation of
+                <a href="https://github.com/JakeGinesin/jakegines.in"
+                    >Jake Ginesin's</a
+                >
+                site, built from scratch for a minimal footprint.
+            </footer>
+        </div>
     </body>
 </html>
