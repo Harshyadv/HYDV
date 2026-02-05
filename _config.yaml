@@ -5,10 +5,6 @@ description: "About Me"
 # Base URL
 baseurl: "" # leave empty for user site like yourusername.github.io
 
-# Theme
-theme: minima # built-in Jekyll theme, no CSS/HTML needed
-
-# Author (optional)
 author: "Harsh Yadav"
 
 # Optional settings
