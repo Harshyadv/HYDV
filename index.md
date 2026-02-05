@@ -10,6 +10,8 @@ I value clarity, efficiency, and software that communicates intent through both 
 
 - **Here’s my resume:** [Download PDF](https://github.com/Harshyadv/Harshyadv/blob/369ad442dce60b007f4cb2b0775c2daea0f21166/Harsh%20Yadav.pdf)
 
+---
+
 ### What I Care About
 * **Systems & Workflow.** Fedora-first Linux setups, shell automation, resource-aware computing.
 * **Design.** Pixel art, game icons, SVG editing, and minimal UI work that respects structure.
