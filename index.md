@@ -24,7 +24,7 @@ Currently, I spend my time bridging the gap between technical engineering (AI/ML
 ### Links
 * **GitHub**: [@Harshyadv](https://github.com/Harshyadv)
 * **LinkedIn**: [Connect with me](https://www.linkedin.com/in/your-profile)
-* **Portfolio**: [View Design Work](#) 
+* **Mail**: [My GMAIL ID](mailto:yharshv271@gmail.com) 
 
 ---
 

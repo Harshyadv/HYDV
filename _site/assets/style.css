@@ -66,6 +66,40 @@ code {
     font-size: 0.95em;
 }
 
+/* Container for the code block to position the button */
+.code-wrapper {
+    position: relative;
+}
+
+.copy-button {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    padding: 4px 8px;
+    font-size: 10px;
+    text-transform: uppercase;
+    background: #30363d;
+    color: #c9d1d9;
+    border: 1px solid #8b949e;
+    border-radius: 4px;
+    cursor: pointer;
+    opacity: 0; /* Hidden by default */
+    transition: opacity 0.2s ease;
+}
+
+.code-wrapper:hover .copy-button {
+    opacity: 1; /* Shows up when you hover over the code */
+}
+
+.copy-button:hover {
+    background: #484f58;
+}
+
+.copy-button.copied {
+    background: #238636;
+    color: white;
+}
+
 /* Pixel art stays crisp */
 img.pixel-art {
     image-rendering: pixelated;
