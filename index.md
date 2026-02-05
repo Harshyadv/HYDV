@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# Hi, I'm Harsh. 🎨
+# Hi, I'm Harsh.
 
 I am a **Computer Science Master’s Graduate** from Guru Ghasidas University with a passion for the intersection of **low-level systems** and **high-fidelity art**. 
 
