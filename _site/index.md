@@ -1,16 +1,4 @@
----
-layout: none
----
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Harsh Yadav | Portfolio</title>
-    <link rel="stylesheet" href="{{ site.baseurl }}/assets/style.css">
-</head>
-<body>
-
-<div class="box" markdown="1">
+<div style="border: 2px solid #ccc; padding: 20px; border-radius: 10px; max-width: 800px; margin: auto;" markdown="1">
 
 # Harsh Yadav
 
@@ -47,9 +35,4 @@ I'm **seeking opportunities** to gain **professional experience** in **game desi
 **Email**: [yharshv271@gmail.com](mailto:yharshv271@gmail.com)  
 **LinkedIn**: [hyadav0701](https://www.linkedin.com/in/hyadav0701/)
 
-[Check out my GitHub](https://github.com/Harshyadv)
-
 </div>
-
-</body>
-</html>
