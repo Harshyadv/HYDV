@@ -1,6 +1,6 @@
 title: Harsh Yadav
 description: CS Master's Graduate | Pixel Artist # Or any theme you like
-baseurl: "/HYDY" # THIS IS IMPORTANT for GitHub Project Pages
+baseurl: "/HYDY/" # THIS IS IMPORTANT for GitHub Project Pages
 url: "https://harshyadv.github.io"
 kramdown:
   parse_block_html: true
