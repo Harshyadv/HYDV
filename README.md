@@ -1,1 +1,1 @@
-This is the foundation for an about me page
+This is my "About me" website.
