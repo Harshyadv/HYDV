@@ -2,17 +2,6 @@
 layout: none
 ---
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Harsh Yadav | About Me</title>
-    <link rel="stylesheet" href="{{ site.baseurl }}/assets/style.css">
-</head>
-<body>
-
-<div class="box" markdown="1">
-
 # Harsh Yadav
 
 ## About Me
@@ -49,8 +38,3 @@ I'm **seeking opportunities** to gain **professional experience** in **game desi
 **LinkedIn**: [hyadav0701](https://www.linkedin.com/in/hyadav0701/)
 
 [Check out my GitHub](https://github.com/Harshyadv)
-
-</div>
-
-</body>
-</html>
