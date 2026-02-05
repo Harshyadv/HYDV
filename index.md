@@ -28,19 +28,20 @@ Currently, I spend my time bridging the gap between technical engineering (AI/ML
 
 ---
 
-### Technical Rig (The Setup)
-*Inspired by the philosophy that a craftsman is only as good as his tools.*
+### The Rig (Hardware & Environment)
+*I believe in lean, efficient computing.*
 
 **Hardware**
-* **Machine**: [Your Laptop/Desktop Specs - e.g., ThinkPad T14 / Custom Ryzen Build]
-* **OS**: Fedora Linux (Work) | [Other OS] (Gaming/Legacy)
-* **Display**: [Your Monitor Setup]
-* **Input**: [Mechanical Keyboard/Tablet/Mouse]
+- **Machine**: HP Laptop 15s (The Daily Driver)
+- **Processor**: Intel® Core™ i5-10210U (8 cores) @ 1.60GHz
+- **Memory**: 4GB RAM
+- **Graphics**: Intel® UHD Graphics (Wayland)
 
-**Environment**
+**Software Stack**
 ```text
-$ neofetch --ascii_distro fedora
-OS:      Fedora Linux 
-SHELL:   fish / bash
-WM/DE:   GNOME / Sway
-EDITOR:  Neovim (NvChad/Custom)
+$ fastfetch
+OS:      Fedora Linux 43
+DE:      KDE Plasma 6.5.5
+WM:      KWin (Wayland)
+SHELL:   bash / fish
+```
