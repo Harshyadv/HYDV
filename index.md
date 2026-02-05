@@ -1,11 +1,12 @@
 ---
 layout: none
 ---
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Harsh Yadav | Portfolio</title>
+    <title>Harsh Yadav | About Me</title>
     <link rel="stylesheet" href="{{ site.baseurl }}/assets/style.css">
 </head>
 <body>

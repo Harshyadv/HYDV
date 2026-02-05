@@ -1,0 +1,54 @@
+/* Black & White Minimal Theme */
+:root {
+    --bg-color: #000000;
+    --text-color: #ffffff;
+    --border-color: #ffffff;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+}
+
+.box {
+    border: 1px solid var(--border-color);
+    padding: 32px;
+    max-width: 800px;
+    margin: 40px auto;
+    background-color: var(--bg-color);
+    border-radius: 0;
+}
+
+h1, h2, h3 {
+    color: var(--text-color);
+    border-bottom: 1px solid var(--border-color);
+    padding-bottom: 8px;
+    margin-top: 0;
+}
+
+a {
+    color: var(--text-color);
+    text-decoration: underline;
+}
+
+a:hover {
+    opacity: 0.7;
+}
+
+/* Pixel art stays crisp */
+img.pixel-art {
+    image-rendering: pixelated;
+    image-rendering: crisp-edges;
+}
+
+code {
+    background: #000000;
+    border: 1px solid var(--border-color);
+    padding: 2px 6px;
+    font-family: monospace;
+    font-size: 0.95em;
+}

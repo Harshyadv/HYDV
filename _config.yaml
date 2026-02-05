@@ -1,11 +1,4 @@
-# Site settings
-title: "Harsh Yadav"
-description: "About Me"
-
-# Base URL
-baseurl: "" # leave empty for user site like yourusername.github.io
-
-author: "Harsh Yadav"
-
-# Optional settings
-markdown: kramdown
+title: Harsh Yadav
+description: CS Master's Graduate | Pixel Artist # Or any theme you like
+baseurl: "/HYDY" # THIS IS IMPORTANT for GitHub Project Pages
+url: "https://harshyadv.github.io"
