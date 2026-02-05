@@ -2,39 +2,45 @@
 layout: default
 ---
 
-# Harsh Yadav
+# Hi, I'm Harsh. 🎨
 
-## About Me
-I'm a Computer Science Master's graduate from Guru Ghasidas University, passionate about technology, digital design, and open-source contributions. My expertise spans **game icon and logo design, pixel art, and Linux environments**.
+I am a **Computer Science Master’s Graduate** from Guru Ghasidas University with a passion for the intersection of **low-level systems** and **high-fidelity art**. 
 
-I thrive in dynamic learning environments and enjoy tackling creative challenges. Whether it's **designing visuals for indie games** or **exploring innovative AI applications**, I'm always up for new opportunities to grow and contribute.
+Currently, I spend my time bridging the gap between technical engineering (AI/ML) and visual design (Pixel Art & UI/UX). I believe that software should not only be efficient but also aesthetically intentional.
 
-## Experience
-- **Icon Designer @ [David Studio](https://www.linkedin.com/company/david-s-studio/about/)**
-  - Designed game icons and logos for an indie game, ensuring brand consistency and visual appeal.
-  - Collaborated closely with the art and design teams to create intuitive UI elements.
+### Focus Areas
+* **Design.** Specialized in game icons, pixel art assets, and Figma prototyping.
+* **Intelligence.** Exploring Quantum Convolutional Neural Networks (QCNNs) and ResNet-50.
+* **Environment.** Advanced Linux workflow (Fedora) and shell automation.
+* **Security.** Interested in network integrity and secure systems architecture.
 
-## Skills
-- **Pixel Art & Logo Design** (Figma)
-- **Linux Enthusiast** (currently using Fedora)
-- **AI & Machine Learning Savvy**
-- **Microsoft Office Suite**
+---
 
-## Academic Work
-- **[Comparative Analysis of Quantum Convolutional Neural Networks (QCNNs) and ResNet-50](https://github.com/Harshyadv/Final_Semester_Research_QCNN_vs_ResNet)**
-  - Conducted research on **medical image classification**, evaluating model performance for improved diagnostics.
+### Projects & Work
+* **Icon Designer @ David Studio**: Led the visual identity for indie game assets.
+* **Research**: Implementing deep learning models for image classification.
+* **The "HYDY" Site**: A recreation of minimal web architecture built from scratch.
 
-## Certificates Earned (Work in Progress)
-- freeCodeCamp's [Responsive Web Design](https://freecodecamp.org/certification/Hrshydv/responsive-web-design) course.
+### Links
+* **GitHub**: [@Harshyadv](https://github.com/Harshyadv)
+* **LinkedIn**: [Connect with me](https://www.linkedin.com/in/your-profile)
+* **Portfolio**: [View Design Work](#) 
 
-## Resume
-**[Download my Resume](https://github.com/Harshyadv/Harshyadv/releases/download/resume/Harsh.Yadav.pdf)**
+---
 
-## Looking For
-I'm **seeking opportunities** to gain **professional experience** in **game design, UI/UX, or AI research** where I can apply my skills in design and technology. If you're working on an exciting project, let's connect!
+### Technical Rig (The Setup)
+*Inspired by the philosophy that a craftsman is only as good as his tools.*
 
-## Get in Touch
-**Email**: [yharshv271@gmail.com](mailto:yharshv271@gmail.com)  
-**LinkedIn**: [hyadav0701](https://www.linkedin.com/in/hyadav0701/)
+**Hardware**
+* **Machine**: [Your Laptop/Desktop Specs - e.g., ThinkPad T14 / Custom Ryzen Build]
+* **OS**: Fedora Linux (Work) | [Other OS] (Gaming/Legacy)
+* **Display**: [Your Monitor Setup]
+* **Input**: [Mechanical Keyboard/Tablet/Mouse]
 
-[Check out my GitHub](https://github.com/Harshyadv)
+**Environment**
+```text
+$ neofetch --ascii_distro fedora
+OS:      Fedora Linux 
+SHELL:   fish / bash
+WM/DE:   GNOME / Sway
+EDITOR:  Neovim (NvChad/Custom)
