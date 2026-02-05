@@ -4,37 +4,43 @@ layout: default
 
 # Hi, I'm Harsh.
 
-I am a **Computer Science Master’s Graduate** from Guru Ghasidas University with a passion for the intersection of **low-level systems** and **high-fidelity art**. 
+I’m a **Computer Science Master’s graduate** interested in the overlap between **low-powered systems**, **machine learning**, and **visual design**.
 
-Currently, I spend my time bridging the gap between technical engineering (AI/ML) and visual design (Pixel Art & UI/UX). I believe that software should not only be efficient but also aesthetically intentional.
+I value clarity, efficiency, and software that communicates intent through both structure and aesthetics.
 
-### Focus Areas
-* **Design.** Specialized in game icons, pixel art assets, and Figma prototyping.
-* **Intelligence.** Exploring Quantum Convolutional Neural Networks (QCNNs) and ResNet-50.
-* **Environment.** Advanced Linux workflow (Fedora) and shell automation.
-* **Security.** Interested in network integrity and secure systems architecture.
+- **Here’s my resume:** [Download PDF](https://github.com/Harshyadv/Harshyadv/blob/369ad442dce60b007f4cb2b0775c2daea0f21166/Harsh%20Yadav.pdf)
+
+### What I Care About
+* **Systems & Workflow.** Fedora-first Linux setups, shell automation, resource-aware computing.
+* **Design.** Pixel art, game icons, SVG editing, and minimal UI work that respects structure.
 
 ---
 
-### Projects & Work
-* **Icon Designer @ David Studio**: Led the visual identity for indie game assets.
-* **Research**: Implementing deep learning models for image classification.
-* **The "HYDY" Site**: A recreation of minimal web architecture built from scratch.
+### Work & Projects
+* **Icon & Logo Designer @ David Studio (Remote)**  
+  Designed scalable icons and branding assets for an indie game in development using Figma & SVG.
+* **Research Project**  
+  *Comparative Study of QCNN and ResNet-50 for Medical Image Classification*  
+  Explored accuracy, efficiency, and future scalability using TensorFlow, PyTorch, PennyLane, and Cirq.
+* **The “HYDY” Site**  
+  A minimal "**about me**" website recreated from scratch with a focus on structure over excess.
+
+---
 
 ### Links
 * **GitHub**: [@Harshyadv](https://github.com/Harshyadv)
-* **LinkedIn**: [Connect with me](https://www.linkedin.com/in/your-profile)
-* **Mail**: [My GMAIL ID](mailto:yharshv271@gmail.com) 
+* **LinkedIn**: [Connect with me](https://www.linkedin.com/in/hyadav0701)
+* **Mail**: [yharshv271@gmail.com](mailto:yharshv271@gmail.com)
 
 ---
 
-### The Rig (Hardware & Environment)
-*I believe in lean, efficient computing.*
+### The Rig
+*Here's my humble-bragging of my laptop*
 
 **Hardware**
-- **Machine**: HP Laptop 15s (The Daily Driver)
-- **Processor**: Intel® Core™ i5-10210U (8 cores) @ 1.60GHz
-- **Memory**: 4GB RAM
+- **Machine**: HP Laptop 15s — daily driver
+- **CPU**: Intel® Core™ i5-10210U
+- **Memory**: 4 GB RAM
 - **Graphics**: Intel® UHD Graphics (Wayland)
 
 **Environment**
@@ -43,5 +49,5 @@ $ fastfetch
 OS:      Fedora Linux 43
 DE:      KDE Plasma 6.5.5
 WM:      KWin (Wayland)
-SHELL:   bash / fish
+Shell:   bash / fish
 ```
