@@ -3,22 +3,26 @@
     <head>
         <meta charset="UTF-8" />
         <title>{{ page.title | default: site.title }}</title>
+
+        <!-- REQUIRED for mobile responsiveness -->
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
         <link
             rel="stylesheet"
             href="{{ '/assets/style.css' | relative_url }}"
         />
     </head>
     <body>
-        <div class="box" markdown="1">
+        <main class="box" markdown="1">
             {{ content }}
 
             <footer>
                 Recreation of
-                <a href="https://github.com/JakeGinesin/jakegines.in"
-                    >Jake Ginesin's</a
-                >
+                <a href="https://github.com/JakeGinesin/jakegines.in">
+                    Jake Ginesin's
+                </a>
                 site, built from scratch for a minimal footprint.
             </footer>
-        </div>
+        </main>
     </body>
 </html>

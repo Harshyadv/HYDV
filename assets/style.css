@@ -1,11 +1,20 @@
-/* Black & White Minimal Theme */
+/* Pure Black & White Minimal Theme */
 :root {
-    --bg-color: #000000;
-    --text-color: #ffffff;
-    --border-color: #ffffff;
+    --bg-color: #000;
+    --text-color: #fff;
+    --border-color: #fff;
+}
+
+/* Reset-ish for consistency */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
 }
 
 body {
+    margin: 0;
+    padding: 16px;
     background-color: var(--bg-color);
     color: var(--text-color);
     font-family:
@@ -16,59 +25,80 @@ body {
         Arial,
         sans-serif;
     line-height: 1.6;
-    margin: 0;
-    padding: 20px;
+    font-size: 16px;
 }
 
+/* Content container */
 .box {
+    max-width: 42rem; /* better than px for scaling */
+    margin: 0 auto;
+    padding: 20px;
     border: 1px solid var(--border-color);
-    padding: 32px;
-    max-width: 800px;
-    margin: 40px auto;
     background-color: var(--bg-color);
-    border-radius: 0;
 }
 
+/* Headings */
 h1,
 h2,
 h3 {
-    color: var(--text-color);
-    border-bottom: 1px solid var(--border-color);
-    padding-bottom: 8px;
     margin-top: 0;
+    padding-bottom: 0.4em;
+    border-bottom: 1px solid var(--border-color);
+    font-weight: 600;
 }
 
+/* Links */
 a {
     color: var(--text-color);
     text-decoration: underline;
 }
 
 a:hover {
-    opacity: 0.7;
+    opacity: 0.75;
+}
+
+/* Code */
+code {
+    background-color: #000;
+    border: 1px solid var(--border-color);
+    padding: 0.15em 0.4em;
+    font-family: monospace;
+    font-size: 0.95em;
 }
 
 /* Pixel art stays crisp */
 img.pixel-art {
     image-rendering: pixelated;
     image-rendering: crisp-edges;
+    max-width: 100%;
+    height: auto;
 }
 
-code {
-    background: #000000;
-    border: 1px solid var(--border-color);
-    padding: 2px 6px;
-    font-family: monospace;
-    font-size: 0.95em;
-}
-
+/* Footer */
 footer {
-    margin-top: 40px;
-    padding-top: 20px;
+    margin-top: 2.5rem;
+    padding-top: 1rem;
     border-top: 1px solid var(--border-color);
     font-size: 0.85rem;
-    color: #8b949e;
+    color: var(--text-color);
 }
 
-footer a {
-    color: #58a6ff; /* A slightly different blue for the footer links */
+/* --- Mobile tweaks --- */
+@media (max-width: 480px) {
+    body {
+        padding: 12px;
+        font-size: 15px;
+    }
+
+    .box {
+        padding: 16px;
+    }
+
+    h1 {
+        font-size: 1.6rem;
+    }
+
+    h2 {
+        font-size: 1.3rem;
+    }
 }
