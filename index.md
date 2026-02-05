@@ -37,7 +37,7 @@ Currently, I spend my time bridging the gap between technical engineering (AI/ML
 - **Memory**: 4GB RAM
 - **Graphics**: Intel® UHD Graphics (Wayland)
 
-**Software Stack**
+**Environment**
 ```text
 $ fastfetch
 OS:      Fedora Linux 43

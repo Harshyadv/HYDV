@@ -74,6 +74,41 @@ img.pixel-art {
     height: auto;
 }
 
+/* 1. Reset any table-like behavior inside the box */
+.box pre,
+.box code {
+    display: block;
+    background: #0d1117; /* Dark terminal background */
+    color: #e6edf3;
+    padding: 1rem;
+    border-radius: 6px;
+    border: 1px solid #30363d;
+    font-family: "JetBrains Mono", "Fira Code", monospace;
+    font-size: 0.85rem;
+    line-height: 1.6;
+    overflow-x: auto;
+    white-space: pre; /* Essential: keeps your fastfetch spacing exact */
+}
+
+/* 2. Kill the "underlines" (stray borders) from the screenshot */
+.box pre code {
+    border: none !important;
+    padding: 0;
+    background: transparent;
+    text-decoration: none !important;
+}
+
+/* 3. If Jekyll is still forcing <table> tags, this flattens them */
+.box table,
+.box tr,
+.box td {
+    border: none !important;
+    background: transparent !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    display: block; /* Forces rows to stop acting like table cells */
+}
+
 /* Footer */
 footer {
     margin-top: 2.5rem;
