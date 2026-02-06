@@ -1,11 +1,4 @@
-@font-face {
-    font-family: "JetBrains Mono Nerd Font";
-    src: url("https://cdn.jsdelivr.net/gh/ryanoasis/nerd-fonts@master/patched-fonts/JetBrainsMono/Regular/JetBrainsMonoNerdFont-Regular.woff2")
-        format("woff2");
-    font-weight: 400;
-    font-style: normal;
-    font-display: swap;
-}
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap");
 
 /* Pure Black & White Minimal Theme */
 :root {
@@ -36,6 +29,7 @@ body {
 
     color: var(--text-color);
     font-family:
+        "JetBrains Mono",
         system-ui,
         -apple-system,
         BlinkMacSystemFont,
