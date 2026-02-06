@@ -13,18 +13,18 @@ I value clarity, efficiency, and software that communicates intent through both 
 
 
 ## What I Care About
-* **Systems & Workflow.** Fedora-first Linux setups, shell automation, resource-aware computing.
+* **Systems & Workflow.** Fedora Linux, shell automation, resource-aware computing.
 * **Design.** Pixel art, game icons, SVG editing, and minimal UI work that respects structure.
 
 
 
 ## Work & Projects
-* **Icon & Logo Designer @ David Studio (Remote)**  
+* **[Icon & Logo Designer @ David Studio (Remote)](https://github.com/Harshyadv/Minimalist-Game-UI-Asset-Pack-)**  
   Designed scalable icons and branding assets for an indie game in development using Figma & SVG.
-* **Research Project**  
+* **[Research Project](https://github.com/Harshyadv/Final_Semester_Research_QCNN_vs_ResNet)**  
   *Comparative Study of QCNN and ResNet-50 for Medical Image Classification*  
   Explored accuracy, efficiency, and future scalability using TensorFlow, PyTorch, PennyLane, and Cirq.
-* **The “HYDY” Site**  
+* **[This “HYDY” Site](https://github.com/Harshyadv/HYDV)**  
   A minimal "**about me**" website recreated from scratch with a focus on structure over excess.
 
 
