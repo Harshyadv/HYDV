@@ -1,25 +1,24 @@
 ---
 ---
 
-{
+/* Nerd Font import — MUST be at the top, no braces */
 @import url("https://cdn.jsdelivr.net/npm/@nerdfonts/jetbrains-mono-nerd-font@3.0.0/jetbrains-mono.min.css");
-}
+
 :root {
     --bg-color: #000;
     --text-color: #fff;
     --border-color: #fff;
-    /* Updated Nerd Font stack */
     --font-main: "JetBrainsMono NF", "JetBrains Mono", monospace;
 }
 
-/* 3. RESET */
+/* RESET */
 *,
 *::before,
 *::after {
     box-sizing: border-box;
 }
 
-/* 4. GLOBAL STYLES */
+/* GLOBAL */
 body {
     margin: 0;
     padding: 16px;
@@ -29,31 +28,23 @@ body {
     line-height: 1.6;
     font-size: 16px;
 
-    /* Background Star Logic (using your GIF) */
     background-image: url("{{ '/assets/stars.gif' | relative_url }}");
     background-repeat: repeat;
     background-attachment: fixed;
 
-    /* Crisp Pixels for the Stars */
     image-rendering: pixelated;
-    image-rendering: -moz-crisp-edges;
-    image-rendering: crisp-edges;
 }
 
-/* 5. LAYOUT: THE CONTENT BOX */
+/* CONTENT BOX */
 .box {
     max-width: 42rem;
     margin: 0 auto;
     padding: 20px;
     border: 1px solid var(--border-color);
-    background-color: var(
-        --bg-color
-    ); /* Keeps the background black inside the box */
-    position: relative;
-    z-index: 1;
+    background-color: var(--bg-color);
 }
 
-/* 6. TYPOGRAPHY */
+/* TYPOGRAPHY */
 h1,
 h2,
 h3 {
@@ -72,13 +63,12 @@ a:hover {
     opacity: 0.75;
 }
 
-/* 7. CODE & TERMINAL STYLES */
+/* CODE */
 code,
 pre {
-    font-family: var(--font-main) !important;
+    font-family: var(--font-main);
 }
 
-/* Inline code snippet */
 p > code {
     background-color: #000;
     border: 1px solid var(--border-color);
@@ -86,51 +76,22 @@ p > code {
     font-size: 0.95em;
 }
 
-/* Block code (Pre) */
 .box pre {
-    display: block;
-    background: #0d1117; /* Terminal dark background */
+    background: #0d1117;
     color: #e6edf3;
     padding: 1rem;
     border: 1px solid #30363d;
     font-size: 0.85rem;
     overflow-x: auto;
-    white-space: pre;
 }
 
-/* Ensuring pre/code doesn't get stray borders */
 .box pre code {
-    border: none !important;
-    background: transparent !important;
-    padding: 0 !important;
+    background: none;
+    border: none;
+    padding: 0;
 }
 
-/* 8. UI COMPONENTS (Copy Button, etc.) */
-.code-wrapper {
-    position: relative;
-}
-
-.copy-button {
-    position: absolute;
-    top: 5px;
-    right: 5px;
-    padding: 4px 8px;
-    font-size: 10px;
-    text-transform: uppercase;
-    background: #30363d;
-    color: #c9d1d9;
-    border: 1px solid #8b949e;
-    border-radius: 4px;
-    cursor: pointer;
-    opacity: 0;
-    transition: opacity 0.2s ease;
-}
-
-.code-wrapper:hover .copy-button {
-    opacity: 1;
-}
-
-/* 9. FOOTER */
+/* FOOTER */
 footer {
     margin-top: 2.5rem;
     padding-top: 1rem;
@@ -138,23 +99,29 @@ footer {
     font-size: 0.85rem;
 }
 
-/* 10. MOBILE TWEAKS */
+/* 🔥 MOBILE THAT DOESN’T SUCK */
 @media (max-width: 480px) {
     body {
-        padding: 0; /* Let's clear padding for a "Star strip" on the side */
+        padding: env(safe-area-inset-top) env(safe-area-inset-right)
+            env(safe-area-inset-bottom) env(safe-area-inset-left);
     }
 
     .box {
-        margin: 0 0 0 10%; /* Creates a gap on the left to see your stars */
-        width: 90%;
+        width: 100%;
+        margin: 0;
         padding: 16px;
+
+        /* keep the “star strip” without breaking layout */
+        border-left: none;
         border-right: none;
-        border-top: none;
-        border-bottom: none;
-        min-height: 100vh;
+        border-radius: 0;
     }
 
     h1 {
-        font-size: 1.6rem;
+        font-size: 1.5rem;
+    }
+
+    pre {
+        font-size: 0.8rem;
     }
 }
