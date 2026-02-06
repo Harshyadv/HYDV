@@ -1,43 +1,56 @@
-/* Pure Black & White Minimal Theme */
+@import url("https://cdn.jsdelivr.net/npm/@nerdfonts/jetbrains-mono-nerd-font@3.0.0/jetbrains-mono.min.css");
+
+/* 2. VARIABLES */
 :root {
     --bg-color: #000;
     --text-color: #fff;
     --border-color: #fff;
+    /* Updated Nerd Font stack */
+    --font-main: "JetBrainsMono NF", "JetBrains Mono", monospace;
 }
 
-/* Reset-ish for consistency */
+/* 3. RESET */
 *,
 *::before,
 *::after {
     box-sizing: border-box;
 }
 
+/* 4. GLOBAL STYLES */
 body {
     margin: 0;
     padding: 16px;
     background-color: var(--bg-color);
     color: var(--text-color);
-    font-family:
-        system-ui,
-        -apple-system,
-        BlinkMacSystemFont,
-        "Segoe UI",
-        Arial,
-        sans-serif;
+    font-family: var(--font-main);
     line-height: 1.6;
     font-size: 16px;
+
+    /* Background Star Logic (using your GIF) */
+    background-image: url("/HYDV/assets/stars.gif");
+    background-repeat: repeat;
+    background-attachment: fixed;
+
+    /* Crisp Pixels for the Stars */
+    image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: crisp-edges;
 }
 
-/* Content container */
+/* 5. LAYOUT: THE CONTENT BOX */
 .box {
-    max-width: 42rem; /* better than px for scaling */
+    max-width: 42rem;
     margin: 0 auto;
     padding: 20px;
     border: 1px solid var(--border-color);
-    background-color: var(--bg-color);
+    background-color: var(
+        --bg-color
+    ); /* Keeps the background black inside the box */
+    position: relative;
+    z-index: 1;
 }
 
-/* Headings */
+/* 6. TYPOGRAPHY */
 h1,
 h2,
 h3 {
@@ -47,7 +60,6 @@ h3 {
     font-weight: 600;
 }
 
-/* Links */
 a {
     color: var(--text-color);
     text-decoration: underline;
@@ -57,16 +69,40 @@ a:hover {
     opacity: 0.75;
 }
 
-/* Code */
-code {
+/* 7. CODE & TERMINAL STYLES */
+code,
+pre {
+    font-family: var(--font-main) !important;
+}
+
+/* Inline code snippet */
+p > code {
     background-color: #000;
     border: 1px solid var(--border-color);
     padding: 0.15em 0.4em;
-    font-family: monospace;
     font-size: 0.95em;
 }
 
-/* Container for the code block to position the button */
+/* Block code (Pre) */
+.box pre {
+    display: block;
+    background: #0d1117; /* Terminal dark background */
+    color: #e6edf3;
+    padding: 1rem;
+    border: 1px solid #30363d;
+    font-size: 0.85rem;
+    overflow-x: auto;
+    white-space: pre;
+}
+
+/* Ensuring pre/code doesn't get stray borders */
+.box pre code {
+    border: none !important;
+    background: transparent !important;
+    padding: 0 !important;
+}
+
+/* 8. UI COMPONENTS (Copy Button, etc.) */
 .code-wrapper {
     position: relative;
 }
@@ -83,91 +119,39 @@ code {
     border: 1px solid #8b949e;
     border-radius: 4px;
     cursor: pointer;
-    opacity: 0; /* Hidden by default */
+    opacity: 0;
     transition: opacity 0.2s ease;
 }
 
 .code-wrapper:hover .copy-button {
-    opacity: 1; /* Shows up when you hover over the code */
+    opacity: 1;
 }
 
-.copy-button:hover {
-    background: #484f58;
-}
-
-.copy-button.copied {
-    background: #238636;
-    color: white;
-}
-
-/* Pixel art stays crisp */
-img.pixel-art {
-    image-rendering: pixelated;
-    image-rendering: crisp-edges;
-    max-width: 100%;
-    height: auto;
-}
-
-/* 1. Reset any table-like behavior inside the box */
-.box pre,
-.box code {
-    display: block;
-    background: #0d1117; /* Dark terminal background */
-    color: #e6edf3;
-    padding: 1rem;
-    border-radius: 0px;
-    border: 1px solid #30363d;
-    font-family: "JetBrains Mono", "Fira Code", monospace;
-    font-size: 0.85rem;
-    line-height: 1.6;
-    overflow-x: auto;
-    white-space: pre; /* Essential: keeps your fastfetch spacing exact */
-}
-
-/* 2. Kill the "underlines" (stray borders) from the screenshot */
-.box pre code {
-    border: none !important;
-    padding: 0;
-    background: transparent;
-    text-decoration: none !important;
-}
-
-/* 3. If Jekyll is still forcing <table> tags, this flattens them */
-.box table,
-.box tr,
-.box td {
-    border: none !important;
-    background: transparent !important;
-    padding: 0 !important;
-    margin: 0 !important;
-    display: block; /* Forces rows to stop acting like table cells */
-}
-
-/* Footer */
+/* 9. FOOTER */
 footer {
     margin-top: 2.5rem;
     padding-top: 1rem;
     border-top: 1px solid var(--border-color);
     font-size: 0.85rem;
-    color: var(--text-color);
 }
 
-/* --- Mobile tweaks --- */
+/* 10. MOBILE TWEAKS */
 @media (max-width: 480px) {
     body {
-        padding: 12px;
-        font-size: 15px;
+        padding: 0; /* Let's clear padding for a "Star strip" on the side */
     }
 
     .box {
+        margin: 0 0 0 10%; /* Creates a gap on the left to see your stars */
+        width: 90%;
         padding: 16px;
+        border-right: none;
+        border-top: none;
+        border-bottom: none;
+        min-height: 100vh;
     }
 
     h1 {
         font-size: 1.6rem;
-    }
-
-    h2 {
-        font-size: 1.3rem;
     }
 }
