@@ -15,7 +15,7 @@
 }
 
 body {
-    margin: 0;
+    margin: 50px;
     padding: 16px;
 
     background:
@@ -55,6 +55,15 @@ h3 {
     padding-bottom: 0.4em;
     border-bottom: 1px solid var(--border-color);
     font-weight: 600;
+}
+
+ul {
+    /* logical property for left/right padding */
+    padding-inline: 1.5rem 0;
+
+    /* Optional: custom bullet or alignment */
+    list-style-type: disc;
+    margin-bottom: 1.5rem;
 }
 
 /* Links */
