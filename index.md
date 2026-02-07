@@ -12,13 +12,13 @@ I value clarity, efficiency, and software that communicates intent through both 
 
 
 
-## What I Care About
+### What I Care About
 * **Systems & Workflow.** Fedora Linux, shell automation, resource-aware computing.
 * **Design.** Pixel art, game icons, SVG editing, and minimal UI work that respects structure.
 
 
 
-## Work & Projects
+### Work & Projects
 * **[Icon & Logo Designer @ David Studio (Remote)](https://github.com/Harshyadv/Minimalist-Game-UI-Asset-Pack-)**  
   Designed scalable icons and branding assets for an indie game in development using Figma & SVG.
 
@@ -31,14 +31,14 @@ I value clarity, efficiency, and software that communicates intent through both 
 
 
 
-## Links
+### Links
 * **GitHub**: [@Harshyadv](https://github.com/Harshyadv)
 * **LinkedIn**: [Connect with me](https://www.linkedin.com/in/hyadav0701)
 * **Mail**: [yharshv271@gmail.com](mailto:yharshv271@gmail.com)
 
 
 
-## The Rig
+### The Rig
 *Here's my humble-bragging of my laptop*
 
 **Hardware**
