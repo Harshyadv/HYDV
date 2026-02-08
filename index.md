@@ -26,7 +26,7 @@ I value clarity, efficiency, and software that communicates intent through both 
   *Comparative Study of QCNN and ResNet-50 for Medical Image Classification*  
   Explored accuracy, efficiency, and future scalability using TensorFlow, PyTorch, PennyLane, and Cirq.
 
-* **[This “HYDY” Site](https://github.com/Harshyadv/HYDV)**  
+* **[This “HYDV” Site](https://github.com/Harshyadv/HYDV)**  
   A minimal "**about me**" website recreated from scratch with a focus on structure over excess.
 
 
