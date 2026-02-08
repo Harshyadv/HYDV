@@ -49,7 +49,7 @@ I value clarity, efficiency, and software that communicates intent through both 
 
 **Environment**
 ```text
-$ fastfetch --structure OS:Kernel:Shell:Editor
+$ fastfetch --structure OS:DE:WM:Shell
 OS:      Fedora Linux 43
 DE:      KDE Plasma 6.5.5
 WM:      KWin (Wayland)
