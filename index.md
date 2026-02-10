@@ -8,7 +8,7 @@ I’m a **Computer Science Master’s graduate** interested in the overlap betwe
 
 I value clarity, efficiency, and software that communicates intent through both structure and aesthetics.
 
-- **Here’s my resume:** [Download PDF](https://github.com/Harshyadv/Harshyadv/blob/369ad442dce60b007f4cb2b0775c2daea0f21166/Harsh%20Yadav.pdf)
+- **Here’s my resume:** [Download PDF](https://raw.githubusercontent.com/Harshyadv/Harshyadv/41ab7d85192d26e64324770f9af533def0471896/Harsh%20Yadav.pdf)
 
 
 
@@ -26,7 +26,7 @@ I value clarity, efficiency, and software that communicates intent through both 
   *Comparative Study of QCNN and ResNet-50 for Medical Image Classification*  
   Explored accuracy, efficiency, and future scalability using TensorFlow, PyTorch, PennyLane, and Cirq.
 
-* **[This “HYDY” Site](https://github.com/Harshyadv/HYDV)**  
+* **[This “HYDV” Site](https://github.com/Harshyadv/HYDV)**  
   A minimal "**about me**" website recreated from scratch with a focus on structure over excess.
 
 
@@ -49,7 +49,7 @@ I value clarity, efficiency, and software that communicates intent through both 
 
 **Environment**
 ```text
-$ fastfetch --structure OS:Kernel:Shell:Editor
+$ fastfetch --structure OS:DE:WM:Shell
 OS:      Fedora Linux 43
 DE:      KDE Plasma 6.5.5
 WM:      KWin (Wayland)
