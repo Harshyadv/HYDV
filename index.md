@@ -10,13 +10,9 @@ I value clarity, efficiency, and software that communicates intent through both 
 
 - **Here’s my resume:** [Download PDF](https://raw.githubusercontent.com/Harshyadv/Harshyadv/41ab7d85192d26e64324770f9af533def0471896/Harsh%20Yadav.pdf)
 
-
-
 ## What I Care About
 * **Systems & Workflow.** Fedora Linux, shell automation, resource-aware computing.
 * **Design.** Pixel art, game icons, SVG editing, and minimal UI work that respects structure.
-
-
 
 ## Work & Projects
 * **[Icon & Logo Designer @ David Studio (Remote)](https://github.com/Harshyadv/Minimalist-Game-UI-Asset-Pack-)**  
@@ -29,14 +25,10 @@ I value clarity, efficiency, and software that communicates intent through both 
 * **[This “HYDV” Site](https://github.com/Harshyadv/HYDV)**  
   A minimal "**about me**" website recreated from scratch with a focus on structure over excess.
 
-
-
 ## Links
 * **GitHub**: [@Harshyadv](https://github.com/Harshyadv)
 * **LinkedIn**: [Connect with me](https://www.linkedin.com/in/hyadav0701)
 * **Mail**: [yharshv271@gmail.com](mailto:yharshv271@gmail.com)
-
-
 
 ## The Rig
 *Here's my humble-bragging of my laptop*
