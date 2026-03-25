@@ -11,9 +11,12 @@ I value clarity, efficiency, and software that communicates intent through both 
 - **Here’s my resume:** [Download PDF](https://raw.githubusercontent.com/Harshyadv/Harshyadv/41ab7d85192d26e64324770f9af533def0471896/Harsh%20Yadav.pdf)
 
 ## What I Care About
-* **Systems & Workflow.** Fedora Linux, shell automation, resource-aware computing.
-* **Design.** Pixel art, game icons, SVG editing, and minimal UI work that respects structure.
-* **Context-Aware Hindi Localization.** Moving beyond literal "dictionary" translations to provide natural, culturally resonant Hindi interfaces. 
+
+- **Systems & Workflow.** Fedora Linux, shell automation, resource-aware computing.
+
+- **Design.** Pixel art, game icons, SVG editing, and minimal UI work that respects structure.
+
+- **Context-Aware Hindi Localization.** Moving beyond literal "dictionary" translations to provide natural, culturally resonant Hindi interfaces. 
 
 ## Work & Projects
 
@@ -31,11 +34,13 @@ I value clarity, efficiency, and software that communicates intent through both 
   A [Community advocacy website](https://keepandroidopen.org) fighting against Google's 2025 developer verification mandate, which will require all developers to be registered with Google. I've translated its index.md into Hindi.
 
 ## Links
-* **GitHub**: [@Harshyadv](https://github.com/Harshyadv)
-* **LinkedIn**: [Connect with me](https://www.linkedin.com/in/hyadav0701)
-* **Mail**: [yharshv271@gmail.com](mailto:yharshv271@gmail.com)
+
+- **GitHub**: [@Harshyadv](https://github.com/Harshyadv)
+- **LinkedIn**: [Connect with me](https://www.linkedin.com/in/hyadav0701)
+- **Mail**: [yharshv271@gmail.com](mailto:yharshv271@gmail.com)
 
 ## The Rig
+
 *Here's my humble-bragging of my laptop*
 
 **Hardware**
