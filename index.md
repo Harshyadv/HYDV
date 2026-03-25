@@ -13,17 +13,22 @@ I value clarity, efficiency, and software that communicates intent through both 
 ## What I Care About
 * **Systems & Workflow.** Fedora Linux, shell automation, resource-aware computing.
 * **Design.** Pixel art, game icons, SVG editing, and minimal UI work that respects structure.
+* **Context-Aware Hindi Localization.** Moving beyond literal "dictionary" translations to provide natural, culturally resonant Hindi interfaces. 
 
 ## Work & Projects
-* **[Icon & Logo Designer @ David Studio (Remote)](https://github.com/Harshyadv/Minimalist-Game-UI-Asset-Pack-)**  
+
+- **[Icon & Logo Designer @ David Studio (Remote)](https://github.com/Harshyadv/Minimalist-Game-UI-Asset-Pack-)**  
   Designed scalable icons and branding assets for an indie game in development using Figma & SVG.
 
-* **[Research Project](https://github.com/Harshyadv/Final_Semester_Research_QCNN_vs_ResNet)**  
+- **[Research Project](https://github.com/Harshyadv/Final_Semester_Research_QCNN_vs_ResNet)**  
   *Comparative Study of QCNN and ResNet-50 for Medical Image Classification*  
   Explored accuracy, efficiency, and future scalability using TensorFlow, PyTorch, PennyLane, and Cirq.
 
-* **[This “HYDV” Site](https://github.com/Harshyadv/HYDV)**  
+- **[This "HYDV" Site](https://github.com/Harshyadv/HYDV)**  
   A minimal "**about me**" website recreated from scratch with a focus on structure over excess.
+
+- **[keepandroidopen.org](https://keepandroidopen.org/hi)**  
+  A [Community advocacy website](https://keepandroidopen.org) fighting against Google's 2025 developer verification mandate, which will require all developers to be registered with Google. I've translated its index.md into Hindi.
 
 ## Links
 * **GitHub**: [@Harshyadv](https://github.com/Harshyadv)
