@@ -1,10 +1,21 @@
 @import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap");
 
-/* Pure Black & White Minimal Theme */
+/* Theme Variables */
 :root {
     --bg-color: #000;
     --text-color: #fff;
     --border-color: #fff;
+    --bg-image: url("/HYDV/assets/gifs/stars_sparkle_dark.gif");
+    --overlay-color: rgba(0, 0, 0, 0.6);
+}
+
+/* Light Theme */
+[data-theme="light"] {
+    --bg-color: #fff;
+    --text-color: #000;
+    --border-color: #000;
+    --bg-image: url("/HYDV/assets/gifs/stars_sparkle_light.gif");
+    --overlay-color: rgba(255, 255, 255, 0.6);
 }
 
 /* Reset-ish for consistency */
@@ -19,8 +30,8 @@ body {
     padding: 16px;
 
     background:
-        linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-        url("../stars.gif");
+        linear-gradient(var(--overlay-color), var(--overlay-color)),
+        var(--bg-image);
 
     background-repeat: repeat;
     background-position: center;
@@ -97,6 +108,7 @@ code {
     padding: 4px 8px;
     font-size: 10px;
     text-transform: uppercase;
+    font-family: "JetBrains Mono", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
     background: #30363d;
     color: #c9d1d9;
     border: 1px solid #8b949e;
@@ -169,6 +181,50 @@ footer {
     border-top: 1px solid var(--border-color);
     font-size: 0.85rem;
     color: var(--text-color);
+}
+
+/* Theme Toggle Button */
+.theme-toggle {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background: var(--bg-color);
+    border: 1px solid var(--border-color);
+    color: var(--text-color);
+    padding: 8px 12px;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: 14px;
+    border-radius: 4px;
+    z-index: 1000;
+    transition: opacity 0.2s ease;
+}
+
+.theme-toggle:hover {
+    opacity: 0.8;
+}
+
+.theme-toggle::after {
+    content: attr(data-tooltip);
+    position: absolute;
+    top: 100%;
+    right: 0;
+    margin-top: 8px;
+    background: var(--bg-color);
+    color: var(--text-color);
+    border: 1px solid var(--border-color);
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 12px;
+    white-space: nowrap;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.2s ease;
+    z-index: 1001;
+}
+
+.theme-toggle:hover::after {
+    opacity: 1;
 }
 
 /* --- Mobile tweaks --- */
