@@ -4,40 +4,39 @@ layout: default
 
 # **Hi, I'm Harsh**.
 
-I’m a **Computer Science Master’s graduate** interested in the overlap between **low-powered systems**, **machine learning**, and **visual design**.
+I’m a **Computer Science Master’s graduate** interested in the overlap between **Linux infrastructure**, **cloud environments**, and **AI-driven development workflows**.
 
-I value clarity, efficiency, and software that communicates intent through both structure and aesthetics.
+I value clarity, efficiency, and software that communicates intent through both terminal structure and clean automation.
 
 - **Here’s my resume:** [Download PDF](https://raw.githubusercontent.com/Harshyadv/Harshyadv/41ab7d85192d26e64324770f9af533def0471896/Harsh%20Yadav.pdf)
 
 ## What I Care About
 
-- **Systems & Workflow.** Fedora Linux, shell automation, resource-aware computing.
+- **Cloud & Systems.** Managing live AWS EC2 instances entirely via SSH, configuring Docker containers, Fedora Linux, and shell automation .
 
-- **Design.** Pixel art, game icons, SVG editing, and minimal UI work that respects structure.
+- **Agentic Workflows.** Using advanced AI coding tools like Devin CLI and Devin Desktop to accelerate file refactoring, testing, and debugging directly from the terminal .
 
-- **Context-Aware Hindi Localization.** Moving beyond literal "dictionary" translations to provide natural, culturally resonant Hindi interfaces. 
+- **Technical Hindi Localization.** Moving beyond literal dictionary translations to provide natural, context-aware Hindi localization for open-source software and documentation. 
 
 ## Work & Projects
+
+- **Cloud Infrastructure & AI Labs (In Progress)**
+  Maintaining a live remote server environment to study application containerization with Docker and test prompt-driven software engineering with AI agents.
+
+- **[keepandroidopen.org](https://keepandroidopen.org/hi)**  
+  A [Community advocacy website](https://keepandroidopen.org) fighting against Google's developer verification mandate. Translated its technical index documentation into natural, context-accurate Hindi.
 
 - **[Icon & Logo Designer @ David Studio (Remote)](https://github.com/Harshyadv/Minimalist-Game-UI-Asset-Pack-)**  
   Designed scalable icons and branding assets for an indie game in development using Figma & SVG.
 
-- **[Research Project](https://github.com/Harshyadv/Final_Semester_Research_QCNN_vs_ResNet)**  
-  *Comparative Study of QCNN and ResNet-50 for Medical Image Classification*  
-  Explored accuracy, efficiency, and future scalability using TensorFlow, PyTorch, PennyLane, and Cirq.
-
 - **[This "HYDV" Site](https://github.com/Harshyadv/HYDV)**  
   A minimal "**about me**" website recreated from scratch with a focus on structure over excess.
-
-- **[keepandroidopen.org](https://keepandroidopen.org/hi)**  
-  A [Community advocacy website](https://keepandroidopen.org) fighting against Google's 2025 developer verification mandate, which will require all developers to be registered with Google. I've translated its index.md into Hindi.
 
 ## Links
 
 - **GitHub**: [@Harshyadv](https://github.com/Harshyadv)
-- **LinkedIn**: [Connect with me](https://www.linkedin.com/in/hyadav0701)
-- **Mail**: [yharshv271@gmail.com](mailto:yharshv271@gmail.com)
+- **LinkedIn**: [Connect with me](https://www.linkedin.com/in/hyadav0701) 
+- **Mail**: [yharshv271@gmail.com](mailto:yharshv271@gmail.com) 
 
 ## The Rig
 
@@ -51,9 +50,13 @@ I value clarity, efficiency, and software that communicates intent through both 
 
 **Environment**
 ```text
-$ fastfetch --structure OS:DE:WM:Shell
-OS:      Fedora Linux 43
-DE:      KDE Plasma 6.5.5
-WM:      KWin (Wayland)
+$ fastfetch --structure OS:Shell (Dual Boot)
+
+# Main Environment
+OS:      Fedora 44
 Shell:   bash / fish
+
+# Secondary Environment
+OS:      Windows 10
+Shell:   PowerShell / Command Prompt
 ```
