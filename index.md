@@ -49,14 +49,14 @@ I value clarity, efficiency, and software that communicates intent through both 
 - **Graphics**: Intel® UHD Graphics (Wayland)
 
 **Environment**
-```text
+```
 $ fastfetch --structure OS:Shell (Dual Boot)
 
 # Main Environment
-OS:      Fedora 44
-Shell:   bash / fish
+OS:      Windows 10
+Shell:   PowerShell / Command Prompt / NuShell
 
 # Secondary Environment
-OS:      Windows 10
-Shell:   PowerShell / Command Prompt
+OS:      Fedora 44
+Shell:   bash / fish
 ```
