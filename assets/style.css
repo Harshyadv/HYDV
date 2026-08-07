@@ -264,7 +264,7 @@ footer {
 /* --- Mobile tweaks --- */
 @media (max-width: 480px) {
     body {
-        margin: 36px 10px 16px; /* Top margin clearance for theme toggle box */
+        margin: 36px 24px 16px; /* Reduced width by theme toggle box size */
         padding: 0;
         font-size: 14px;
     }
