@@ -264,13 +264,13 @@ footer {
 /* --- Mobile tweaks --- */
 @media (max-width: 480px) {
     body {
-        margin: 16px 8px;
+        margin: 36px 10px 16px; /* Top margin clearance for theme toggle box */
         padding: 0;
         font-size: 14px;
     }
 
     .box {
-        padding: 14px;
+        padding: 12px;
     }
 
     h1 {
@@ -288,7 +288,7 @@ footer {
     }
 
     .theme-toggle {
-        top: 10px;
+        top: 8px;
         right: 10px;
         padding: 3px 6px;
         font-size: 11px;
