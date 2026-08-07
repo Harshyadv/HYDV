@@ -5,8 +5,15 @@
     --bg-color: #000;
     --text-color: #fff;
     --border-color: #fff;
-    --bg-image: url("/HYDV/assets/gifs/stars_sparkle_dark.gif");
+    --bg-image: url("gifs/stars_sparkle_dark.gif");
     --overlay-color: rgba(0, 0, 0, 0.6);
+    --code-bg: #0d1117;
+    --code-text: #e6edf3;
+    --code-border: #30363d;
+    --copy-btn-bg: #30363d;
+    --copy-btn-text: #c9d1d9;
+    --copy-btn-border: #8b949e;
+    --copy-btn-hover-bg: #484f58;
 }
 
 /* Light Theme */
@@ -14,8 +21,15 @@
     --bg-color: #fff;
     --text-color: #000;
     --border-color: #000;
-    --bg-image: url("/HYDV/assets/gifs/stars_sparkle_light.gif");
+    --bg-image: url("gifs/stars_sparkle_light.gif");
     --overlay-color: rgba(255, 255, 255, 0.6);
+    --code-bg: #f6f8fa;
+    --code-text: #1f2328;
+    --code-border: #d0d7de;
+    --copy-btn-bg: #eaeef2;
+    --copy-btn-text: #24292f;
+    --copy-btn-border: #d0d7de;
+    --copy-btn-hover-bg: #d8dee4;
 }
 
 /* Reset-ish for consistency */
@@ -89,8 +103,9 @@ a:hover {
 
 /* Code */
 code {
-    background-color: #000;
-    border: 1px solid var(--border-color);
+    background-color: var(--code-bg);
+    color: var(--code-text);
+    border: 1px solid var(--code-border);
     padding: 0.15em 0.4em;
     font-family: monospace;
     font-size: 0.95em;
@@ -116,10 +131,10 @@ code {
         "Segoe UI",
         Arial,
         sans-serif;
-    background: #30363d;
-    color: #c9d1d9;
-    border: 1px solid #8b949e;
-    border-radius: 4px;
+    background: var(--copy-btn-bg);
+    color: var(--copy-btn-text);
+    border: 1px solid var(--copy-btn-border);
+    border-radius: 0;
     cursor: pointer;
     opacity: 0; /* Hidden by default */
     transition: opacity 0.2s ease;
@@ -130,7 +145,7 @@ code {
 }
 
 .copy-button:hover {
-    background: #484f58;
+    background: var(--copy-btn-hover-bg);
 }
 
 .copy-button.copied {
@@ -150,11 +165,11 @@ img.pixel-art {
 .box pre,
 .box code {
     display: block;
-    background: #0d1117; /* Dark terminal background */
-    color: #e6edf3;
+    background: var(--code-bg);
+    color: var(--code-text);
     padding: 1rem;
     border-radius: 0px;
-    border: 1px solid #30363d;
+    border: 1px solid var(--code-border);
     font-family: "JetBrains Mono", "Fira Code", monospace;
     font-size: 0.85rem;
     line-height: 1.6;
@@ -198,11 +213,11 @@ footer {
     background: var(--bg-color);
     border: 1px solid var(--border-color);
     color: var(--text-color);
-    padding: 8px 12px;
+    padding: 4px 8px;
     cursor: pointer;
     font-family: inherit;
-    font-size: 14px;
-    border-radius: 4px;
+    font-size: 12px;
+    border-radius: 0;
     z-index: 1000;
     transition: opacity 0.2s ease;
 }
@@ -221,7 +236,7 @@ footer {
     color: var(--text-color);
     border: 1px solid var(--border-color);
     padding: 4px 8px;
-    border-radius: 4px;
+    border-radius: 0;
     font-size: 12px;
     white-space: nowrap;
     opacity: 0;
