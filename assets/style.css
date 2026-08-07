@@ -205,6 +205,18 @@ footer {
     color: var(--text-color);
 }
 
+.footer-hint {
+    margin-top: 0.4rem;
+    font-size: 0.8rem;
+    opacity: 0.75;
+}
+
+.footer-hint code {
+    display: inline;
+    padding: 0.1em 0.3em;
+    font-size: 0.85em;
+}
+
 /* Theme Toggle Button */
 .theme-toggle {
     position: fixed;
