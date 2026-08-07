@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", () => {
   // Update theme button text
   function updateThemeButton(theme) {
     themeToggle.textContent = theme === 'light' ? '🌙' : '☀️';
-    themeToggle.setAttribute('data-tooltip', theme === 'light' ? 'Switch to Dark Theme' : 'Switch to Light Theme');
+    themeToggle.setAttribute('data-tooltip', theme === 'light' ? 'Switch to Dark Theme (t)' : 'Switch to Light Theme (t)');
   }
 
   // Toggle theme
@@ -41,6 +41,16 @@ document.addEventListener("DOMContentLoaded", () => {
 
   themeToggle.addEventListener('click', toggleTheme);
   initTheme();
+
+  // Keyboard shortcut: Press 't' to toggle theme
+  document.addEventListener('keydown', (e) => {
+    if (['INPUT', 'TEXTAREA'].includes(document.activeElement.tagName) || document.activeElement.isContentEditable) {
+      return;
+    }
+    if (e.key === 't' || e.key === 'T') {
+      toggleTheme();
+    }
+  });
 
   // Listen for system theme changes
   window.matchMedia('(prefers-color-scheme: light)').addEventListener('change', (e) => {
