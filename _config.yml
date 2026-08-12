@@ -1,6 +1,6 @@
 title: Harsh Yadav
 description: CS Master's Graduate # Or any theme you like
-baseurl: ""
-url: "https://harshyadv.github.io"
+baseurl: "/HYDV"
+url: "https://harshyadv.github.io/HYDV"
 kramdown:
   parse_block_html: true
