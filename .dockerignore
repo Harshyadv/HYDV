@@ -1,0 +1,26 @@
+# Version control
+.git
+.gitignore
+
+# Jekyll build artifacts & cache
+_site/
+.jekyll-cache/
+.jekyll-metadata
+
+# Ruby / Bundler local paths
+.bundle/
+vendor/
+
+# Editor / OS files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Container configs & documentation
+Dockerfile*
+compose*.yaml
+compose*.yml
+docker-compose*.yaml
+docker-compose*.yml
+README.md

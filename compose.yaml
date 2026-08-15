@@ -1,0 +1,23 @@
+services:
+  dev:
+    build:
+      context: .
+      target: dev
+    container_name: hydv-dev
+    ports:
+      - "4000:4000"
+      - "35729:35729"
+    volumes:
+      - .:/srv/jekyll
+    security_opt:
+      - label=disable
+    environment:
+      - JEKYLL_ENV=development
+
+  prod:
+    build:
+      context: .
+      target: prod
+    container_name: hydv-prod
+    ports:
+      - "8080:80"
