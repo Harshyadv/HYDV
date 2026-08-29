@@ -8,7 +8,7 @@ I’m a **Computer Science Master’s graduate** interested in the overlap betwe
 
 I value clarity, efficiency, and software that communicates intent through both terminal structure and clean automation.
 
-- **Here’s my resume:** [Download PDF](https://raw.githubusercontent.com/Harshyadv/Harshyadv/main/Harsh%20Yadav.pdf)
+- **Here’s my resume:** [Download PDF](https://drive.google.com/file/d/1sm3KcwH33HnTrv6aK54Mx6RQEERelq54/view?usp=drive_link)
 
 ## What I Care About
 
