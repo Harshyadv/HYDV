@@ -4,9 +4,9 @@ layout: default
 
 # Hi, I'm Harsh.
 
-I’m a **Computer Science Master’s graduate** interested in the overlap between **Linux infrastructure**, **cloud environments**, and **AI-driven development workflows**.
-
 I value clarity, efficiency, and software that communicates intent through both terminal structure and clean automation.
+
+Currently looking for entry-level roles in **DevOps / cloud support / Linux administration**.
 
 - **Here’s my resume:** [Download PDF](https://drive.google.com/file/d/1pvHQFNa-9xseWLlKV63coBrDGbc0i5sA/view?usp=sharing)
 
@@ -26,7 +26,7 @@ I value clarity, efficiency, and software that communicates intent through both 
 - **[keepandroidopen.org](https://keepandroidopen.org/hi)**  
   A [Community advocacy website](https://keepandroidopen.org) fighting against Google's developer verification mandate. Translated its technical index documentation into natural, context-accurate Hindi.
 
-- **[Icon & Logo Designer @ David Studio (Remote)](https://github.com/Harshyadv/Minimalist-Game-UI-Asset-Pack-)**  
+- **[Icon & Logo Designer, David Studio (Remote, 6 months)](https://github.com/Harshyadv/Minimalist-Game-UI-Asset-Pack-)**
   Designed scalable icons and branding assets for an indie game in development using Figma & SVG.
 
 - **[This "HYDV" Site](https://github.com/Harshyadv/HYDV)**  
@@ -47,7 +47,7 @@ I value clarity, efficiency, and software that communicates intent through both 
 - **Machine**: HP Laptop 15s — daily driver
 - **CPU**: Intel® Core™ i5-10210U
 - **Memory**: 4 GB RAM
-- **Graphics**: Intel® UHD Graphics (Wayland)
+- **Graphics**: Intel® UHD Graphics
 
 ### Environment
 
@@ -59,6 +59,7 @@ OS:      Windows 10
 Shell:   PowerShell / Command Prompt / NuShell
 
 # Secondary Environment
-OS:      Fedora 44
+OS:      Fedora 44 + Niri (work in progress)
+Display Protocol: Wayland
 Shell:   bash / fish
 ```
