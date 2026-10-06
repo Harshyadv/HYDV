@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="1920"
+   height="1080"
+   viewBox="0 0 1920 1080"
+   version="1.1"
+   id="starfield-canvas-light"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#f8f9fa"
+     bordercolor="#cccccc"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#e5e5e5"
+     showgrid="false" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer-background"
+     inkscape:label="Background">
+    <rect
+       id="bg-rect"
+       width="1920"
+       height="1080"
+       x="0"
+       y="0"
+       style="fill:#f8f9fa;fill-opacity:1;stroke:none" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer-stars"
+     inkscape:label="Stars"
+     style="display:inline">
+    <!-- Faint Background Stars (r=1) -->
+    <circle cx="145" cy="82" r="1" style="fill:#64748b;fill-opacity:0.35;stroke:none" />
+    <circle cx="312" cy="450" r="1" style="fill:#475569;fill-opacity:0.4;stroke:none" />
+    <circle cx="520" cy="180" r="1" style="fill:#64748b;fill-opacity:0.32;stroke:none" />
+    <circle cx="730" cy="910" r="1" style="fill:#475569;fill-opacity:0.42;stroke:none" />
+    <circle cx="940" cy="340" r="1" style="fill:#334155;fill-opacity:0.38;stroke:none" />
+    <circle cx="1150" cy="720" r="1" style="fill:#64748b;fill-opacity:0.3;stroke:none" />
+    <circle cx="1360" cy="210" r="1" style="fill:#475569;fill-opacity:0.38;stroke:none" />
+    <circle cx="1580" cy="860" r="1" style="fill:#64748b;fill-opacity:0.34;stroke:none" />
+    <circle cx="1790" cy="140" r="1" style="fill:#334155;fill-opacity:0.45;stroke:none" />
+    <circle cx="230" cy="890" r="1" style="fill:#64748b;fill-opacity:0.32;stroke:none" />
+    <circle cx="460" cy="670" r="1" style="fill:#475569;fill-opacity:0.4;stroke:none" />
+    <circle cx="680" cy="290" r="1" style="fill:#64748b;fill-opacity:0.35;stroke:none" />
+    <circle cx="890" cy="810" r="1" style="fill:#475569;fill-opacity:0.42;stroke:none" />
+    <circle cx="1110" cy="150" r="1" style="fill:#94a3b8;fill-opacity:0.3;stroke:none" />
+    <circle cx="1320" cy="590" r="1" style="fill:#475569;fill-opacity:0.37;stroke:none" />
+    <circle cx="1530" cy="380" r="1" style="fill:#334155;fill-opacity:0.4;stroke:none" />
+    <circle cx="1740" cy="970" r="1" style="fill:#64748b;fill-opacity:0.34;stroke:none" />
+    <circle cx="80" cy="540" r="1" style="fill:#334155;fill-opacity:0.43;stroke:none" />
+    <circle cx="390" cy="120" r="1" style="fill:#64748b;fill-opacity:0.32;stroke:none" />
+    <circle cx="610" cy="760" r="1" style="fill:#475569;fill-opacity:0.4;stroke:none" />
+    <circle cx="830" cy="490" r="1" style="fill:#64748b;fill-opacity:0.36;stroke:none" />
+    <circle cx="1040" cy="980" r="1" style="fill:#94a3b8;fill-opacity:0.3;stroke:none" />
+    <circle cx="1260" cy="410" r="1" style="fill:#475569;fill-opacity:0.4;stroke:none" />
+    <circle cx="1470" cy="70" r="1" style="fill:#64748b;fill-opacity:0.37;stroke:none" />
+    <circle cx="1690" cy="620" r="1" style="fill:#64748b;fill-opacity:0.33;stroke:none" />
+    <circle cx="1870" cy="430" r="1" style="fill:#334155;fill-opacity:0.42;stroke:none" />
+
+    <!-- Mid-Size Stars (r=1.5) -->
+    <circle cx="190" cy="310" r="1.5" style="fill:#1e293b;fill-opacity:0.65;stroke:none" />
+    <circle cx="410" cy="930" r="1.5" style="fill:#334155;fill-opacity:0.6;stroke:none" />
+    <circle cx="630" cy="440" r="1.5" style="fill:#0f172a;fill-opacity:0.7;stroke:none" />
+    <circle cx="850" cy="190" r="1.5" style="fill:#1e293b;fill-opacity:0.62;stroke:none" />
+    <circle cx="1070" cy="610" r="1.5" style="fill:#0f172a;fill-opacity:0.68;stroke:none" />
+    <circle cx="1290" cy="880" r="1.5" style="fill:#334155;fill-opacity:0.58;stroke:none" />
+    <circle cx="1500" cy="260" r="1.5" style="fill:#0f172a;fill-opacity:0.72;stroke:none" />
+    <circle cx="1720" cy="740" r="1.5" style="fill:#1e293b;fill-opacity:0.64;stroke:none" />
+    <circle cx="270" cy="620" r="1.5" style="fill:#334155;fill-opacity:0.6;stroke:none" />
+    <circle cx="490" cy="60" r="1.5" style="fill:#0f172a;fill-opacity:0.7;stroke:none" />
+    <circle cx="710" cy="680" r="1.5" style="fill:#0f172a;fill-opacity:0.68;stroke:none" />
+    <circle cx="930" cy="90" r="1.5" style="fill:#1e293b;fill-opacity:0.62;stroke:none" />
+    <circle cx="1160" cy="470" r="1.5" style="fill:#1e293b;fill-opacity:0.65;stroke:none" />
+    <circle cx="1380" cy="1010" r="1.5" style="fill:#334155;fill-opacity:0.6;stroke:none" />
+    <circle cx="1600" cy="520" r="1.5" style="fill:#0f172a;fill-opacity:0.72;stroke:none" />
+    <circle cx="1820" cy="280" r="1.5" style="fill:#1e293b;fill-opacity:0.64;stroke:none" />
+
+    <!-- Sharp Foreground Stars (r=2 to 2.5) -->
+    <circle cx="110" cy="780" r="2" style="fill:#0f172a;fill-opacity:0.9;stroke:none" />
+    <circle cx="350" cy="240" r="2.2" style="fill:#020617;fill-opacity:0.95;stroke:none" />
+    <circle cx="580" cy="850" r="2" style="fill:#0f172a;fill-opacity:0.88;stroke:none" />
+    <circle cx="800" cy="570" r="2.5" style="fill:#020617;fill-opacity:1;stroke:none" />
+    <circle cx="1020" cy="220" r="2" style="fill:#0f172a;fill-opacity:0.9;stroke:none" />
+    <circle cx="1230" cy="830" r="2.3" style="fill:#020617;fill-opacity:0.95;stroke:none" />
+    <circle cx="1440" cy="460" r="2" style="fill:#0f172a;fill-opacity:0.88;stroke:none" />
+    <circle cx="1660" cy="110" r="2.5" style="fill:#020617;fill-opacity:1;stroke:none" />
+    <circle cx="1890" cy="820" r="2" style="fill:#0f172a;fill-opacity:0.9;stroke:none" />
+
+    <!-- Accent Sparkle Cross-Stars (Deep Slate/Navy Glints) -->
+    <g id="sparkle-1" transform="translate(250, 160)">
+      <circle cx="0" cy="0" r="2" style="fill:#020617;fill-opacity:1;stroke:none" />
+      <path d="M 0,-9 Q 0,0 9,0 Q 0,0 0,9 Q 0,0 -9,0 Q 0,0 0,-9 Z" style="fill:#0f172a;fill-opacity:0.85;stroke:none" />
+    </g>
+    <g id="sparkle-2" transform="translate(760, 110)">
+      <circle cx="0" cy="0" r="2.2" style="fill:#020617;fill-opacity:1;stroke:none" />
+      <path d="M 0,-11 Q 0,0 11,0 Q 0,0 0,11 Q 0,0 -11,0 Q 0,0 0,-11 Z" style="fill:#0f172a;fill-opacity:0.9;stroke:none" />
+    </g>
+    <g id="sparkle-3" transform="translate(1200, 310)">
+      <circle cx="0" cy="0" r="2" style="fill:#020617;fill-opacity:1;stroke:none" />
+      <path d="M 0,-8 Q 0,0 8,0 Q 0,0 0,8 Q 0,0 -8,0 Q 0,0 0,-8 Z" style="fill:#0f172a;fill-opacity:0.8;stroke:none" />
+    </g>
+    <g id="sparkle-4" transform="translate(1550, 710)">
+      <circle cx="0" cy="0" r="2.5" style="fill:#020617;fill-opacity:1;stroke:none" />
+      <path d="M 0,-12 Q 0,0 12,0 Q 0,0 0,12 Q 0,0 -12,0 Q 0,0 0,-12 Z" style="fill:#0f172a;fill-opacity:0.95;stroke:none" />
+    </g>
+    <g id="sparkle-5" transform="translate(980, 790)">
+      <circle cx="0" cy="0" r="1.8" style="fill:#020617;fill-opacity:1;stroke:none" />
+      <path d="M 0,-8 Q 0,0 8,0 Q 0,0 0,8 Q 0,0 -8,0 Q 0,0 0,-8 Z" style="fill:#0f172a;fill-opacity:0.85;stroke:none" />
+    </g>
+    <g id="sparkle-6" transform="translate(540, 520)">
+      <circle cx="0" cy="0" r="2.3" style="fill:#020617;fill-opacity:1;stroke:none" />
+      <path d="M 0,-10 Q 0,0 10,0 Q 0,0 0,10 Q 0,0 -10,0 Q 0,0 0,-10 Z" style="fill:#0f172a;fill-opacity:0.9;stroke:none" />
+    </g>
+  </g>
+</svg>

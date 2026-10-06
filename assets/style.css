@@ -5,8 +5,8 @@
     --bg-color: #000;
     --text-color: #fff;
     --border-color: #fff;
-    --bg-image: url("gifs/stars_sparkle_dark.gif");
-    --overlay-color: rgba(0, 0, 0, 0.6);
+    --bg-image: url("background/background.svg");
+    --overlay-color: transparent;
     --code-bg: #0d1117;
     --code-text: #e6edf3;
     --code-border: #30363d;
@@ -21,8 +21,8 @@
     --bg-color: #fff;
     --text-color: #000;
     --border-color: #000;
-    --bg-image: url("gifs/stars_sparkle_light.gif");
-    --overlay-color: rgba(255, 255, 255, 0.6);
+    --bg-image: url("background/background-light.svg");
+    --overlay-color: transparent;
     --code-bg: #f6f8fa;
     --code-text: #1f2328;
     --code-border: #d0d7de;
@@ -47,10 +47,10 @@ body {
         linear-gradient(var(--overlay-color), var(--overlay-color)),
         var(--bg-image);
 
-    background-repeat: repeat;
+    background-repeat: no-repeat;
+    background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    image-rendering: pixelated;
 
     color: var(--text-color);
     font-family:
